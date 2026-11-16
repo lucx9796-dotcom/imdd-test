@@ -36,7 +36,7 @@ public class ImddClient implements ClientModInitializer {
         int w = ctx.getScaledWindowWidth(), h = ctx.getScaledWindowHeight();
 
         if (mc.getDebugHud().shouldShowDebugHud()) {
-            int y = h - 40;   // canto inferior direito, abaixo das linhas do F3
+            int y = Math.min(Math.max(h / 2 + 25, 372), h - 30);   // direita, logo abaixo das linhas do F3 (que terminam por volta de y=360)
             drawLine(ctx, mc, LINE1, w, y, 0xFFFF55FF);       // Light Purple
             drawLine(ctx, mc, LINE2, w, y + 9, 0xFFFF5555);   // Light Red
         }
