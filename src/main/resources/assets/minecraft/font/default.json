@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "imdd:logo/logo.png",
+            "ascent": 82,
+            "height": 132,
+            "chars": ["ポ"]
+        }
+    ]
+}

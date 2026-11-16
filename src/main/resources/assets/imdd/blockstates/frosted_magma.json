@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "imdd:block/frosted_magma_0" },
+    "age=1": { "model": "imdd:block/frosted_magma_1" },
+    "age=2": { "model": "imdd:block/frosted_magma_2" },
+    "age=3": { "model": "imdd:block/frosted_magma_3" }
+  }
+}

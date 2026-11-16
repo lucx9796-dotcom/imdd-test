@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "imdd",
+  "version": "${version}",
+  "name": "Irmandade (IMDD)",
+  "description": "Relíquias, Dia do Expurgo e mais.",
+  "authors": ["LucxMC"],
+  "environment": "*",
+  "entrypoints": { "main": ["br.com.irmandade.imdd.Imdd"], "client": ["br.com.irmandade.imdd.client.ImddClient"] },
+  "mixins": ["imdd.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
